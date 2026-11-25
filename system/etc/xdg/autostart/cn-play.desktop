@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=CN-PLAY
-Exec=/usr/bin/cn-play-shell
-X-GNOME-Autostart-enabled=true
