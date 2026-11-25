@@ -1,6 +1,6 @@
-name: myos
-description: My own OS, based on Bazzite
-base-image: ghcr.io/ublue-os/bazzite
+name: cn-play
+description: CN-PLAY - Your Games, Your Console. Built on Bazzite.
+base-image: ghcr.io/ublue-os/bazzite   # use bazzite-nvidia if you have an NVIDIA GPU
 image-version: stable
 
 modules:
@@ -11,7 +11,7 @@ modules:
 
   - type: rpm-ostree
     install:
-      - neovim
+      - chromium        # runs the CN-PLAY interface in fullscreen kiosk mode
       - htop
 
   - type: default-flatpaks
